@@ -70,9 +70,16 @@ namespace ProductivityFeatures
             EmployeeInfo e33 = new EmployeeInfo();
             e33.FirstName = "sam";
             e33.LastName = "";
+            
 
             var JsonData = JsonConvert.SerializeObject(e33);
             var JsonDeserialize = JsonConvert.DeserializeObject(JsonData);
+            //ctrl + space
+            string a = "ang";
+            string b = "";
+            Console.WriteLine(a);
+
+
 
             List<EmployeeInfo> EmpList = new List<EmployeeInfo>();
             EmpList.Add(e1);

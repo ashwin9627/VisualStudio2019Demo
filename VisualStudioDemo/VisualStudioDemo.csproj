@@ -132,6 +132,7 @@
     <Compile Include="Models\CodeCleanup.cs" />
     <Compile Include="Models\Debugging.cs" />
     <Compile Include="Models\ExtractInterfaceToSameFile.cs" />
+    <Compile Include="Models\Intellicode.cs" />
     <Compile Include="Models\IntelliTest.cs" />
     <Compile Include="Models\Refactoring.cs" />
     <Compile Include="Models\Update160.cs" />

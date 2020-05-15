@@ -36,3 +36,7 @@ using System.Runtime.InteropServices;
 [assembly: InternalsVisibleTo("TestForProject")]
 [assembly: InternalsVisibleTo("VisualStudioDemo.Explorables")]
 [assembly: InternalsVisibleTo("VisualStudioDemo.TestsInteliTest123")]
+[assembly: InternalsVisibleTo("VisualStudioDemo.INTELLIDEVELOP")]
+[assembly: InternalsVisibleTo("VisualStudioDemo.DivideInteliTest")]
+[assembly: InternalsVisibleTo("VisualStudioDemo.NewTestCase")]
+[assembly: InternalsVisibleTo("VisualStudioDemo.TestsNew12345")]

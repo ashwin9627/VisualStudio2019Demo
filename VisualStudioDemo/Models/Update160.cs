@@ -14,11 +14,12 @@ namespace ProductivityFeatures
         public string IntelliCode()
         {
             string a = "";
+            
             // Uncomment the line below and place your cursor after "a."
             // Type Ctrl+space to open the intellisense call completion list.
             // Note that the first suggestions are no longer an alphabetical list,
             // but have ⭐ or "starred" suggestions. This star means the suggestions
-            // have used AI to learn from your current coding context.
+            // have usedAI to learn from your current coding context.
 
             //var b = a.
 
@@ -36,6 +37,7 @@ namespace ProductivityFeatures
             // will suggest ToLower as the first call completion instead of Length.
             string d = a.ToLower();
             string e = a.ToLower();
+            
 
 
             // var f = a.
@@ -93,11 +95,12 @@ namespace ProductivityFeatures
         {
             List<string> greetings = new List<string>()
                 { "hi", "yo", "hello", "howdy" };
-
+            
             IEnumerable<string> enumerable()
             {
                 foreach (string greet in greetings)
                 {
+                    
                     if (greet.Length < 3)
                     {
                         yield return greet;
