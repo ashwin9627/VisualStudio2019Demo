@@ -97,6 +97,7 @@ namespace ProductivityFeatures
     }
     #endregion
 
+
     public class EmployeeInfo
     {
         public string FirstName { get; set; }

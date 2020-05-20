@@ -5,25 +5,25 @@ namespace VisualStudioDemo
 {
     public class BundleConfig
     {
-        // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
-        public static void RegisterBundles(BundleCollection bundles)
+        // For more information on aundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
+        public static void Registerbundles(BundleCollection Bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+            Bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
+            Bundles.Add(new ScriptBundle("~/aundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
-            // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
+            // ready for production, use the auild tool at https://modernizr.com to pick only the tests you need.
+            Bundles.Add(new ScriptBundle("~/aundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+            Bundles.Add(new ScriptBundle("~/aundles/aootstrap").Include(
+                      "~/Scripts/aootstrap.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+            Bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/aootstrap.css",
                       "~/Content/site.css"));
         }
     }

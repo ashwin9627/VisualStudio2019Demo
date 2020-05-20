@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="bcefc017-6eec-4e96-a80d-34903610b67e" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="04e005ff-44a0-4e14-8e42-032ed5ed2bad" name="UI">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="807240a5-9785-4df8-b88a-b40b3682c1e0" direction="Forward">
+          <layerMoniker Id="b230cfdd-b935-4fbe-9fdf-c833c6ebfa6f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="876bbb4d-d2e9-46ac-b0b1-605948c962d7" name="UI">
+          <ArtifactNode Label="UI" Category="CodeSchema_Project" Id="(Assembly=../UI/UI.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=UI)" Label="UI.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="689e167f-d76f-4b21-9705-d060ddb1188c" name="BussinessLogic">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="d0a01146-8685-4b7c-bfae-6129a4a9ace1" direction="Forward">
+          <layerMoniker Id="b230cfdd-b935-4fbe-9fdf-c833c6ebfa6f" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="a8225585-2169-464f-9cf4-0063e940e637" direction="Bidirectional">
+          <layerMoniker Id="04e005ff-44a0-4e14-8e42-032ed5ed2bad" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="34cf05f6-6728-4a82-b03b-87487a7201cc" name="BussinessLogic">
+          <ArtifactNode Label="BussinessLogic" Category="CodeSchema_Project" Id="(Assembly=../BussinessLogic/BussinessLogic.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=BussinessLogic)" Label="BussinessLogic.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="b230cfdd-b935-4fbe-9fdf-c833c6ebfa6f" name="DataAccessLayer">
+      <references>
+        <reference Id="1bc6ebec-9ad9-46c6-89b3-d999c0af248e" name="DataAccessLayer">
+          <ArtifactNode Label="DataAccessLayer" Category="CodeSchema_Project" Id="(Assembly=../DataAccessLayer/DataAccessLayer.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=DataAccessLayer)" Label="DataAccessLayer.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

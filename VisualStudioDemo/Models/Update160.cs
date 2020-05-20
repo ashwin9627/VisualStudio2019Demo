@@ -289,6 +289,9 @@ namespace ProductivityFeatures
 
             Console.WriteLine(x);
         }
+        public void personInfo(int a, int b)
+        {
+        }
 
         // Fix Implicitly-typed variables cannot be constant
         // Uncomment the const line to cause an error
@@ -296,7 +299,7 @@ namespace ProductivityFeatures
         // Select use explicit type instead of var
         public void ImplicitlyTypedVariablesCannotBeConstant()
         {
-            //const var v = "";
+           // const var v = "";
         }
 
         // Replace `@$"` with `$@"` when typing interpolated verbatim string

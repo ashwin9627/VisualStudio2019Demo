@@ -11,7 +11,7 @@ namespace VisualStudioDemo
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{resource}.axd/{*pbthInfo}");
 
             routes.MapRoute(
                 name: "Default",

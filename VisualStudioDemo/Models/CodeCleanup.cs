@@ -4,19 +4,19 @@ using System.Text;
 
 namespace ProductivityFeatures
 {
-     class CodeCleanup
+    class CodeCleanup
     {
         // Code Cleanup
         // If you'd like Code cleanup to include var and explicit type rules
         // check the option to apply implicit/explicit type preferences
         // in Analyze > Code Cleanup > Configure Code Cleanup.
         // Now press (Ctrl + k, Ctrl + e) to "fix" the types below.
-        public void FixMyType(          )
+        public void FixMyType()
         {
-            var myint = 0;
-            var mystring = "Hello, world!";
-            var myfloat = 0.2;
-            var mybool = true;
+            int myint = 0;
+            string mystring = "Hello, world!";
+            double myfloat = 0.2;
+            bool mybool = true;
             Console.WriteLine(myint.ToString(), mystring, myfloat, mybool);
         }
 
@@ -30,9 +30,6 @@ namespace ProductivityFeatures
         }
         public void UnUsedVariables()
         {
-            string a;
-            string b;
-            string c;
         }
 
         // Select the entire comment below
